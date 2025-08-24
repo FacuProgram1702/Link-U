@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Link U</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      height: 550px; /* altura del encabezado */
+      background-image: url(encabezado.jpeg); /* tu imagen */
+      background-size: cover;       /* que cubra todo el header */
+      background-position: center;  /* centrada */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 2.5em;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.7); /* sombra al texto */
+    }
+
+    /* bloques flotantes*/
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f0f2f5;
+    }
+
+    .contenedor {
+      display: flex;
+      justify-content: center;
+      gap: 20px;  /* espacio entre bloques */
+      padding: 50px;
+    }
+
+    .bloque {
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      width: 250px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      cursor: pointer;
+    }
+
+    .bloque:hover {
+      transform: translateY(-10px); /* se eleva */
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    }
+
+    .bloque h2 {
+      margin: 0;
+      color: #1e90ff;
+    }
+
+    .bloque h3 {
+      margin: 10px 0;
+      color: #333;
+    }
+
+    .bloque p {
+      color: #666;
+      font-size: 0.95em;
+    }
+
+    /* footer */
+     footer {
+      background-color: #333; /* gris oscuro */
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 30px;
+    }
+
+    footer img {
+      height: 50px; /* tamaño de la imagen */
+      width: 70px;
+    }
+
+    /* contacto en footer */
+        .contacto {
+      text-align: right;
+    }
+
+    .contacto a {
+      display: block;
+      color: white;
+      text-decoration: none;
+      margin: 5px 0;
+      transition: color 0.3s, text-shadow 0.3s;
+    }
+
+    .contacto a:hover {
+      color: #1e90ff; /* azul al pasar el mouse */
+      text-shadow: 0 0 5px rgba(30,144,255,0.8);
+    }
+
+
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1><strong>🌐Link U</strong></h1>
+    <p>📡Conectividad, Seguridad y Desarrollo</p>
+  </header>
+
+    <div class="contenedor">
+    <div class="bloque">
+      <h2>Conectividad</h2>
+      <h3><b>Starlink</b></h3>
+      <p>Realizamos instalaciones de un excelente servicio de internet de alta velocidad de <strong>Starlink</strong>
+        y lo adaptamos completamente para su necesidad. Es un servicio extraordinario de alta velocidad y capacidad
+        para navegar en la web, ver videos, streams, trabajar y oscio.</p>
+    </div>
+
+    <div class="bloque">
+      <h2>Seguridad</h2>
+      <h3><b>Camaras y Alarmas</b></h3>
+      <p>Contamos con una gran variedad de opciones de seguridad para adaptar a su necesidad que podra controlar
+        y realizar un seguimiento desde su movil o PC desde cualquier parte del mundo.
+      </p>
+    </div>
+
+    <div class="bloque">
+      <h2>Domotica</h2>
+      <h3><b>Tecnologia adaptada</b></h3>
+      <p>Tenemos la capacidad de adaptar su negocio o vivienda con seguridad y funciones que podra controlar
+        facilmente desde una PC o telefono movil.
+      </p>
+    </div>
+  </div>
+
+   <footer>
+    <!-- Imagen a la izquierda -->
+    <img src="LINU1.png" alt="Logo">
+
+    <!-- Datos de contacto a la derecha -->
+    <div class="contacto">
+      <a href="https://wa.me/5492235171112" target="_blank">📞 WhatsApp</a>
+      <a href="mailto:linkustarlink@gmail.com">✉️ Email</a>
+      <a href="https://instagram.com/linkustarlink" target="_blank">📷 Instagram</a>
+    </div>
+  </footer>
+
+</body>
+</html>
